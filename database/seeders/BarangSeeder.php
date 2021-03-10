@@ -15,23 +15,28 @@ class BarangSeeder extends Seeder
      */
     public function run()
     {
-        $data_pelanggan=[
+        $data_barang=[
             [
-                'id_pelanggan' => '194201921',
-                'nama_pelanggan' => 'Dama Alaba',
-                'alamat' => 'jl.karangsari kampung inggris , kediri'
+                'nama_barang' => 'Playstation 5',
+                'jenis_barang' => 'Elektronik',
+                'jumlah' => '10'
             ],
             [
-                'id_pelanggan' => '194201923',
-                'nama_pelanggan' => 'Genadi Dharma',
-                'alamat' => 'jl.Tatean Denpasar , Bali'
+                'nama_barang' => 'Televisi LG',
+                'jenis_barang' => 'Elektronik',
+                'jumlah' => '5'
             ],
             [
-                'id_pelanggan' => '194201111',
-                'nama_pelanggan' => 'Andika Hilmi',
-                'alamat' => 'jl.merpati putih no 32 , Mojokerto'
+                'nama_barang' => 'Panci',
+                'jenis_barang' => 'Alat Masak',
+                'jumlah' => '20'
+            ],
+            [
+                'nama_barang' => 'Pantsu',
+                'jenis_barang' => 'Pakaian & Style',
+                'jumlah' => '26'
             ]
         ];
-        DB::table('pelanggan')->insert($data_pelanggan);
+        DB::table('barang')->insert($data_barang);
     }
 }

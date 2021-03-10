@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PelangganController;
+use App\Http\Controllers\PegawaiController;
 
 
 /*
@@ -20,5 +21,5 @@ Route::get('/', [HomeController::class, 'index']);
 
 Route::get('/barang', [BarangController::class, 'index']);
 Route::get('/pelanggan', [PelangganController::class, 'index']);
-
+Route::get('/Pegawai', [PegawaiController::class, 'index']);
 
