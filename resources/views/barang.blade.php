@@ -5,7 +5,7 @@
 <html lang="en">
 <head>
 
-     <title>Digital Trend - Blog Detail</title>
+     <title>Barang</title>
 <!--
 
 DIGITAL TREND
